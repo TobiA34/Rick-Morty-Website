@@ -2,10 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Card.module.scss";
 import CardDetails from "./CardDetails";
-
-const Card = ({ page, results }) => {
+import Dropdown from "react-bootstrap/Dropdown";
+import DropdownButton from "react-bootstrap/DropdownButton";
+ 
+ const Card = ({ page, results }) => {
   let display;
-
   if (results) {
     display = results.map((x) => {
       let { id, image, name, status, location } = x;
@@ -17,7 +18,7 @@ const Card = ({ page, results }) => {
           key={id}
           className="col-lg-4 col-md-6 col-sm-6 col-12 mb-4 position-relative text-dark"
         >
-          <div
+           <div
             className={`${styles.card} d-flex flex-column justify-content-center`}
           >
             <img className={`${styles.img} img-fluid`} src={image} alt="" />
