@@ -16,7 +16,7 @@ import DropdownButton from "react-bootstrap/DropdownButton";
           style={{ textDecoration: "none" }}
           to={`${page}${id}`}
           key={id}
-          className="col-lg-4 col-md-6 col-sm-6 col-12 mb-4 position-relative text-dark"
+          className="col-lg-4 col-md-6 col-sm-6 col-12 mb-4 position-relative  "
         >
            <div
             className={`${styles.card} d-flex flex-column justify-content-center`}
@@ -58,7 +58,7 @@ import DropdownButton from "react-bootstrap/DropdownButton";
               );
             }
           })()}
-        </Link>
+         </Link>
       );
     });
   } else {
