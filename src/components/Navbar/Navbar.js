@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import "../../App.scss";
+import DarkMode from "../darkMode/Darkmode";
 
 const Navbar = () => {
   return (
@@ -40,12 +41,10 @@ const Navbar = () => {
             <NavLink to="/episodes" className="nav-link">
               Episode
             </NavLink>
-            <NavLink
-               className="nav-link active"
-              to="/location"
-            >
+            <NavLink className="nav-link active" to="/location">
               Location
             </NavLink>
+            <DarkMode />
           </div>
         </div>
       </div>
