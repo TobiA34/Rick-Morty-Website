@@ -1,37 +1,34 @@
 
-### Packages installation steps
+# Rick and Morty - React 
+ 
+This project uses the Rick and Morty API, which displays the characters from the show, the episodes they appear in and their locations.
+ 
 
-```
-npx create-react-app .
+## Deployment
 
-npm install bootstrap
+To deploy this project run
 
-npm install @popperjs/core --save
-
-npm install sass
-
-npm install react-paginate --save
-
-npm install react-router-dom
-
-npm start
+```bash
+  npm install
+  npm start 
 ```
 
-### Font Awesome CDN
 
-```
-<link
-   rel="stylesheet"
-   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-/>
-    
-```
 
-### Google Font Families
 
-```
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+## Features
 
-font-family: 'Poppins', sans-serif;
-font-family: 'Ubuntu', sans-serif;
-```
+- HTML
+- CSS
+- React
+- Bootstrap
+- Responsive Layout
+- Workflow & Deployment (GitHub & Vercel)
+- Navigation using react-router-dom and modal presenta'on for more character informa'on
+- The ability to filter & sort results
+
+
+## Screenshots
+
+ <img width="1328" alt="Screenshot 2024-12-11 at 21 21 41" src="https://github.com/user-attachments/assets/e998e40c-3ac2-409d-8401-69e5d9d5e045" />
+ <img width="1328" alt="Screenshot 2024-12-11 at 21 22 14" src="https://github.com/user-attachments/assets/f5e97cc7-1e9a-46b7-8e29-d751a6e46f15" />
